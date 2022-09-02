@@ -13,7 +13,12 @@ jobs:
   access_repo:
     runs-on: ubuntu-latest
     steps:
-      - run: ls ; python src/hello.py
+
+      - uses: actions/setup-python@v2.2.1
+        with:
+            python-version: 3.8
+
+      - run: ls
 
 # jobs:
 #   build-linux:
