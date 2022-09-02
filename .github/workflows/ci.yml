@@ -3,8 +3,7 @@ name: Python Package using Conda
 on: 
   push:
     branches:
-      - main
-
+      - master
 
 jobs:
   print_hello:
