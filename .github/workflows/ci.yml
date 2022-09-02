@@ -3,7 +3,7 @@ name: Python Package using Conda
 on: 
   push:
     branches:
-      - master
+      - main
 
 jobs:
   print_hello:
@@ -19,7 +19,7 @@ jobs:
         with:
             python-version: 3.8
 
-      - run: python hello.py
+      - run: echo `python hello.py`
 
 # jobs:
 #   build-linux:
