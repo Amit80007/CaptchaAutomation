@@ -22,6 +22,8 @@ jobs:
 
       - run: echo `python hello.py`
 
+      - run: echo "Next step"
+
 # jobs:
 #   build-linux:
 #     runs-on: ubuntu-latest
