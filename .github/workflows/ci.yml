@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - dummy-branch
 
 jobs:
   print_hello:
