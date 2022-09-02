@@ -13,7 +13,7 @@ jobs:
   access_repo:
     runs-on: ubuntu-latest
     steps:
-      - run: ls ; python ./hello.py
+      - run: ls ; python src/hello.py
 
 # jobs:
 #   build-linux:
