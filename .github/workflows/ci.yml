@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - uses: actions/setup-python@v2.2.1
         with:
             python-version: 3.8
 
-      - run: ls
+      - run: python hello.py
 
 # jobs:
 #   build-linux:
